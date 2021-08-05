@@ -1,7 +1,7 @@
 # Runtime Models Injection for Continuous Key Performance Indicators Assessment
 The presented work is collocated in the context of a project devoted to the Key Performance Indicators (KPIs) assessment over smart cities by means of Model-driven Engineering techniques.
 In particular, the approach allows: 
-- the definition of a [smart city](https://github.com/iovinoludovico/runtime-kpi-assessment/blob/main/sc_.png) in a processable way also through the exploitation of graphical editors; 
+- the definition of a [smart city](sc_.png) in a processable way also through the exploitation of graphical editors; 
 - the definition/selection of the [KPIs](https://github.com/iovinoludovico/runtime-kpi-assessment/blob/main/mykpi.kpis) of interest for the smart city under evaluation through the exploitation of textual DSLs; 
 - the evaluation of the selected KPIs on the subject smart city.
 
