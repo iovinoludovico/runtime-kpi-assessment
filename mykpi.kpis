@@ -1,0 +1,23 @@
+KPIModel myKPIs;
+Dimension Environment{
+  Category AirQuality{
+    KPI AP "Air Pollution Index" {
+      values: AggregatedRangedValue: GET{
+        values: AggregatedRealValue: MAX{
+          AggregatedRealValue: MULT{
+            StaticRealValue: 100.0
+            AggregatedRealValue: DIV{
+              RealValue: PM25,
+              StaticRealValue: 25.0
+            }
+          }
+        // similar definitions for PM10, NO2, O3, SO2 can follow here 
+          ...
+        }
+        Range "Excellent" min:[0.0 max:]30.0,
+          ...
+        Range "Terrible" min:[150.00 
+      }
+    }
+  }
+}
