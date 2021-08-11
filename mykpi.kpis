@@ -1,22 +1,91 @@
-KPIModel myKPIs;
+KPIModel mykpi;
+
 Dimension Environment{
   Category AirQuality{
-    KPI AP "Air Pollution Index" {
+    KPI AP{
       values: AggregatedRangedValue: GET{
         values: AggregatedRealValue: MAX{
           AggregatedRealValue: MULT{
             StaticRealValue: 100.0
             AggregatedRealValue: DIV{
-              RealValue: PM25,
+              RealValue: PM2.5,
               StaticRealValue: 25.0
             }
           }
-        // similar definitions for PM10, NO2, O3, SO2 can follow here 
-          ...
+          AggregatedRealValue: MULT{
+            StaticRealValue: 100.0
+            AggregatedRealValue: DIV{
+              RealValue: PM10,
+              StaticRealValue: 50.0
+            }
+          }
+          AggregatedRealValue: MULT{
+            StaticRealValue: 100.0
+            AggregatedRealValue: DIV{
+              RealValue: NO2,
+              StaticRealValue: 200.0
+            }
+          }
+          AggregatedRealValue: MULT{
+            StaticRealValue: 100.0
+            AggregatedRealValue: DIV{
+              RealValue: O3,
+              StaticRealValue: 180.0
+            }
+          }
+          AggregatedRealValue: MULT{
+            StaticRealValue: 100.0
+            AggregatedRealValue: DIV{
+              RealValue: SO2
+              StaticRealValue: 350.0
+            }
+          }
         }
         Range "Excellent" min:[0.0 max:]30.0,
-          ...
+        Range "Good" min:[30.0 max:]66.0,
+        Range "Discrete" min:[66.0 max:]99.0,
+        Range "Bad" min:[99.0 max:]150.0,
         Range "Terrible" min:[150.00 
+      }
+      KPI Humidity{
+        values: AggregatedRealValue: GET{
+          RealValue: Humidity
+        }
+      }
+    }
+  }
+    Category Public Spaces & Nature{
+    KPI GA{
+      values: AggregatedRealValue: DIV{
+        RealValue: TotalGreenArea
+        AggregatedRealValue: CEN{
+          RealValue: CityPop
+        }
+      }
+    }
+  }
+}
+
+Dimension Planet{
+  Category Pollution & Waste{
+    KPI NO2 emissions{
+      values: AggregatedRealValue: DIV{
+        RealValue: NO2,
+        RealValue: CityPop
+      }
+    }
+    KPI PM2.5 emissions{
+      values: AggregatedRealValue: DIV{
+        RealValue: PM2.5,
+        RealValue: CityPop
+      }
+    }
+  }
+  Category Climate Resilience{
+    KPI UHI{
+      values: AggregatedRealValue: DIFF{
+        RealValue: cityTemperature,
+        RealValue: countrysideTemperature
       }
     }
   }
