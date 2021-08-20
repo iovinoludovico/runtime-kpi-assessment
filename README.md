@@ -15,9 +15,9 @@ In the video embedded in the figure that you can find at the bottom of this page
 - the KPIs assessment results report.
 
 
-\[1\] M. De Sanctis, L. Iovino, M. T. Rossi, and M. Wimmer, “A flexible architecture for key per-formance indicators assessment in smart cities,” in Proc. of the European Conf. on Software Architecture (ECSA). Springer, 2020, pp. 118–135.
+\[1\] M. De Sanctis, L. Iovino, M. T. Rossi, and M. Wimmer, *“A flexible architecture for key per-formance indicators assessment in smart cities”* in Proc. of the European Conf. on Software Architecture (ECSA). Springer, 2020, pp. 118–135.
 
-\[2\] M. De Sanctis, L. Iovino, M. T. Rossi, and M. Wimmer, “MIKADO – A Smart City KPIs Assessment Modeling Framework” Software & Systems Modeling, 2021.
+\[2\] M. De Sanctis, L. Iovino, M. T. Rossi, and M. Wimmer, *“MIKADO – A Smart City KPIs Assessment Modeling Framework”* Software & Systems Modeling, 2021.
 
 
-[![IMAGE ALT TEXT](cover.png)](https://youtu.be/2pK-PzOLvv4 "Weaving Open Services with Runtime Models for Continuous Smart Cities KPIs Assessment")
+[![IMAGE ALT TEXT](cover_r.png)](https://youtu.be/2pK-PzOLvv4 "Weaving Open Services with Runtime Models for Continuous Smart Cities KPIs Assessment")
