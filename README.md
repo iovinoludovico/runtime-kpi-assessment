@@ -20,4 +20,4 @@ In the video embedded in the figure that you can find at the bottom of this page
 \[2\] M. De Sanctis, L. Iovino, M. T. Rossi, and M. Wimmer, “MIKADO – A Smart City KPIs Assessment Modeling Framework” Software & Systems Modeling, 2021.
 
 
-[![IMAGE ALT TEXT](cover.png)](https://youtu.be/ezUbUCqAq0M "Video Title")
+[![IMAGE ALT TEXT](cover.png)](https://youtu.be/2pK-PzOLvv4 "Weaving Open Services with Runtime Models for Continuous Smart Cities KPIs Assessment")
