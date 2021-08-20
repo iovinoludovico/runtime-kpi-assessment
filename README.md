@@ -1,4 +1,4 @@
-# Runtime Models Injection for Continuous Key Performance Indicators Assessment
+# Weaving Open Services with Runtime Models for Continuous Smart Cities KPIs Assessment
 The presented work is collocated in the context of a project devoted to the Key Performance Indicators (KPIs) assessment over smart cities by means of Model-driven Engineering techniques.
 In particular, the approach allows: 
 - the definition of a [smart city](smartcity.png) in a processable way also through the exploitation of graphical editors; 
