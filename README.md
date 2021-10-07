@@ -30,7 +30,7 @@ We applied the extended evaluation framework over a real smart city, i.e., *L'Aq
 However, the framework can evaluate multiple SCs at a time.
 As dynamic KPIs we consider: *Humidity*, i.e., the percentage of the detected humidity level, *Air Pollution*, 
 *PM2.5*, *NO2*,
-measuring the PM2.5 and NO2 pollutants levels in the air, *Urban Heat Island (UHI)*, i.e., the difference in air temperature between the city and its surroundings (provided by two different sources), and *Green Area~(GA)* as a less dynamic KPI measuring the green area hectares per 100.000 inhabitants. 
+measuring the PM2.5 and NO2 pollutants levels in the air, *Urban Heat Island (UHI)*, i.e., the difference in air temperature between the city and its surroundings (provided by two different sources), and *Green Area (GA)* as a less dynamic KPI measuring the green area hectares per 100.000 inhabitants. 
 
 Four Publishers are considered as data sources for the input parameters of these KPIs.
 [BreezoMeter](https://www.breezometer.com/) is a website offering **open API** exposing environmental data and insights to third party applications. 
