@@ -30,7 +30,7 @@ We applied the extended evaluation framework over a real smart city, i.e., *L'Aq
 However, the framework can evaluate multiple SCs at a time.
 As dynamic KPIs we consider: 
 - *Humidity*, i.e., the percentage of the detected humidity level, 
-- *Air Pollution*, 
+- *Air Pollution*, measuring the air quality based on  the  values  reported  for  specific  pollutants,
 - *PM2.5*, measuring the PM2.5 pollutant levels in the air,
 - *NO2*, measuring the NO2 pollutant levels in the air, 
 - *Urban Heat Island (UHI)*, i.e., the difference in air temperature between the city and its surroundings (provided by two different sources), 
