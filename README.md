@@ -39,8 +39,8 @@ As dynamic KPIs we consider:
 Four Publishers are considered as data sources for the input parameters of these KPIs.
 - [BreezoMeter](https://www.breezometer.com/) is a website offering **open API** exposing environmental data and insights to third party applications. 
 It can be queried via a specific *url* taking the latitude and longitude of a city as parameters, and it replies with JSON data providing values for different pollutants and other interesting info. 
-- [ISTAT](http://dati.istat.it) is the national statistics institute providing **Web services** exposing statistics about, e.g., the census of population, economic censuses. 
--[OpenWeather map](https://openweathermap.org) provides information about weather forecasts, air temperature, etc. for any coordinates via an open API. 
+- [ISTAT](http://dati.istat.it) is the national statistics institute providing **Web services** exposing statistics about, e.g., the census of population, economic censuses.
+- [OpenWeather map](https://openweathermap.org) provides information about weather forecasts, air temperature, etc. for any coordinates via an open API. 
 - An IoT infrastructure based on [Tinkerforge](https://www.tinkerforge.com/en/) sensors that publishes data from a Tinkerforge Air Quality [Bricklet](https://bit.ly/3xngllU).  Tinkerforge is a system of building blocks, based on pluggable modules and APIs, available for many programming languages. Using this board we have assembled a smart environment sensor in our department measuring multiple air quality parameters, e.g., humidity and temperature (a picture of the assembled board is available at this [link](https://bit.ly/3fv8DQB) ). 
 
 The first three publishers collect different parameters values (e.g., PM2.5, totalGreenArea) through APIs calls and create topics for all of them. Anytime these values change, the publishers will send a new MQTT message. The Tinkerforge publisher, instead, continuously monitors specific parameters, i.e., humidity and temperature, for which a new message is published when the measured values change. 
